@@ -17,39 +17,25 @@ body {
 #present .cover img {
     position: relative;
     z-index: 2;
-    transition: all 0.5s;
 }
 
 #present .box {
     margin-top: -5%;
     z-index: 1;
-    transition: all 1s;
 }
 
 #present .cover {
-    transition: all 1s;
     margin-bottom: -11%;
 }
 
-#present:hover .cover img{
-    transition: all 0.5s;
-}
-
 #present:hover .cover {
-    transition: all 0.5s;
     margin: 0;
 }
 
 
 #present:hover .heart img{
-    transition: all 0.5s;
     width: 160px;
     height: 150px;
-}
-
-#present:hover .heart {
-    position: relative;
-    transition: all 1s;
 }
 
 
@@ -89,7 +75,7 @@ body {
 }
 
 .letter p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .open {
@@ -105,7 +91,7 @@ body {
 }
 
 .letter h1, .letter h2, .letter p {
-    margin: 5%;
+    margin: 2%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
@@ -129,6 +115,6 @@ body {
     }
     
     .letter p {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
